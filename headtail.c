@@ -21,10 +21,10 @@ int main(){
     }
     printf("Heads:%d,Tails:%d\n",head,tail);
     if(head>tail){
-        printf("You won");
+        printf("%s won",str);
     }
      else{   
-        printf("You lost");
+        printf("%s lost",str);
     }
     return 0;
 
