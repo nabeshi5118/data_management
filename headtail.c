@@ -3,6 +3,11 @@
 int main(){
     int head=0;
     int tail=0;
+    char str[100];
+    printf("Who are you?\n>");
+    scanf("%s",str);
+    printf("Hello,%s\n",str);
+
     printf("Tossing a coin...");
     for(int i=0;i<3;i++){
         int num=rand()%3;
